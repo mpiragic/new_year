@@ -2,3 +2,16 @@ header{
 	height:100vh;
 	background-color: blue;
 }
+.kontejner{
+	background-color: red;
+	padding:20px;
+}
+.container-fluid{
+	background-color: green;
+}
+.col-md-3{
+	background-color: purple;
+	border: 1px solid black;
+	height: 300px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
