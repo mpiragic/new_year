@@ -31,6 +31,9 @@ h1{
 	font-size: 3em;
 	color:#FFFFFF;
 }
+a:link{
+	color:#FFFFFF;
+}
 header h1 {
 	font-family: cartoon;
 	text-align: center;
@@ -47,9 +50,23 @@ header h1 {
 	left:0;
 	padding-left: 15px;
 }
+.reaper{
+	z-index: 1;
+}
+.reaper > img{
 
+	width:400px;
+	height:400px;
+	-webkit-animation: smrt 10s linear infinite;
+	-moz-animation: smrt 10s linear infinite;
+	-ms-animation: smrt 10s linear infinite;
+	animation: smrt 10s linear infinite;
+}
 
-/*-----ANIMATION-----*/
+/*-----ANIMATIONS-----*/
+@keyframes reaper{
+	
+}
 #snow{
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
 	height: 100%;
