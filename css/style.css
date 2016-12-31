@@ -2,6 +2,7 @@ body{
 	background-image: url('../img/pozadina.png');
 	background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
+    overflow-x:hidden;  
 }
 @font-face {
     font-family: cartoon;
@@ -90,7 +91,7 @@ header h1 {
 /*-----ANIMATIONS-----*/
 @keyframes smrt{
 	0%{
-		transform:translate(-400px);
+		transform:translate(-400px;);
 	}
 	100%{
 		transform:translate(100vw);
