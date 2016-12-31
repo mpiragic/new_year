@@ -12,9 +12,10 @@ header{
 .container-fluid{
 	background-color: green;
 }
-.col-md-3{
+.col-md-3,.col-sm-4,.col-xs-6{
 	background-color: purple;
 	border: 1px solid black;
+	padding:0;
 	
 }
 header h1 {
@@ -25,6 +26,15 @@ header h1 {
 	position:relative;
 	top:40%;
 }
+.riknuli{
+	position:absolute;
+	top:0;
+	left:0;
+	padding-left: 15px;
+}
+
+
+/*-----ANIMATION-----*/
 #snow{
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
 	height: 100%;
