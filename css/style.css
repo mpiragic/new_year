@@ -70,7 +70,7 @@ a:hover{
 header h1 {
 	font-family: cartoon;
 	text-align: center;
-	font-size: 7em;
+	font-size: 8vw;
 	color:#000000;
 }
 .text{
@@ -89,18 +89,21 @@ header h1 {
 	-webkit-animation: smrt 10s linear infinite;
 	-moz-animation: smrt 10s linear infinite;
 	-ms-animation: smrt 10s linear infinite;
-	animation: smrt 10s linear infinite
+	animation: smrt 10s linear infinite;
 }
 .reaper > img{
 	opacity:1;
 	width:400px;
 	height:400px;
 }
+@media (max-width: 768px){
+	.reaper > img{
+		width: 200px;
+		height:200px;
+	}
+}
 
 /*-----ANIMATIONS-----*/
-@keyframes kutija{
-	transform:
-}
 @keyframes smrt{
 	0%{
 		transform:translate(-400px;);
@@ -145,6 +148,15 @@ header h1 {
 	-moz-animation: snow 10s linear infinite;
 	-ms-animation: snow 10s linear infinite;
 	animation: snow 10s linear infinite;
+}
+@media (max-width: 591px){
+	/*#snow .reaper{
+		position: relative;
+		bottom: 130px;
+	}*/
+	.text{
+		font-size: 0.7em;
+	}
 }
 @keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
