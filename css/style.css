@@ -1,5 +1,11 @@
 body{
 	background-image: url('../img/pozadina.png');
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+}
+@font-face {
+    font-family: cartoon;
+    src: url(../fonts/cartoon.otf);
 }
 header{
 	height:100vh;
@@ -8,22 +14,28 @@ header{
     background-repeat:   no-repeat;
     background-position: center center;              /* optional, center the image */
 }
+img{
+	opacity: 0.4;
+}
 .kontejner{
 
 	padding:20px;
 }
-.container-fluid{
-	background-color: green;
-}
 .col-md-3,.col-sm-4,.col-xs-6{
-	background-color: purple;
 	border: 1px solid black;
 	padding:0;
 	
 }
+h1{
+	font-family: cartoon;
+	font-size: 3em;
+	color:#FFFFFF;
+}
 header h1 {
+	font-family: cartoon;
 	text-align: center;
-	font-size: 5em;
+	font-size: 7em;
+	color:#000000;
 }
 .text{
 	position:relative;
