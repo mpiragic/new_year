@@ -2,6 +2,7 @@ body{
 	background-image: url('../img/pozadina.png');
 	background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
+    overflow-x:hidden;  
 }
 @font-face {
     font-family: cartoon;
@@ -75,19 +76,50 @@ header h1 {
 }
 .reaper{
 	z-index: 1;
+	left:-400px;
+	-webkit-animation: smrt 10s linear infinite;
+	-moz-animation: smrt 10s linear infinite;
+	-ms-animation: smrt 10s linear infinite;
+	animation: smrt 10s linear infinite
 }
 .reaper > img{
-
+	opacity:1;
 	width:400px;
 	height:400px;
 }
-.reaper:hover{
-	translate:1940px;
-}
 
 /*-----ANIMATIONS-----*/
-@keyframes reaper{
-	
+@keyframes smrt{
+	0%{
+		transform:translate(-400px;);
+	}
+	100%{
+		transform:translate(100vw);
+	}
+}
+@-moz-keyframes smrt{
+	0%{
+		transform:translate(-400px);
+	}
+	100%{
+		transform:translate(100vw);
+	}
+}
+@-webkit-keyframes smrt{
+	0%{
+		transform:translate(-400px);
+	}
+	100%{
+		transform:translate(100vw);
+	}
+}
+@-ms-keyframes smrt{
+	0%{
+		transform:translate(-400px);
+	}
+	100%{
+		transform:translate(100vw);
+	}
 }
 #snow{
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
