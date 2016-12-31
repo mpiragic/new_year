@@ -7,6 +7,10 @@ body{
     font-family: cartoon;
     src: url(../fonts/cartoon.otf);
 }
+@font-face {
+    font-family: evil;
+    src: url(../fonts/evil.ttf);
+}
 header{
 	height:100vh;
 	background-image: url("../img/banner.jpg");
@@ -15,7 +19,7 @@ header{
     background-position: center center;              /* optional, center the image */
 }
 img{
-	opacity: 0.4;
+	opacity: 0.8;
 }
 .kontejner{
 
@@ -26,10 +30,19 @@ img{
 	padding:0;
 	
 }
+.prvi{
+	border-right-color:rgba(255,255,255,0);
+	border-bottom-color: rgba(255,255,255,0);
+}
 h1{
-	font-family: cartoon;
-	font-size: 3em;
-	color:#FFFFFF;
+	font-family: evil;
+	font-size: 2em;
+	color:rgba(255,255,255,0.6);
+}
+p{
+	font-family: 'Coming Soon', cursive;
+	color:rgba(255,255,255,0.7);
+	font-size: 1.1em;
 }
 header h1 {
 	font-family: cartoon;
