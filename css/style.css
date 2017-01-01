@@ -106,7 +106,7 @@ header h1 {
 /*-----ANIMATIONS-----*/
 @keyframes smrt{
 	0%{
-		transform:translate(-400px;);
+		transform:translate(-400px);
 	}
 	100%{
 		transform:translate(100vw);
